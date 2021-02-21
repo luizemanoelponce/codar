@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, .container {
+    width: 100%;
+}
+header{
+    display: flex;
+}
+nav{
+    height: 8vh;
+    width: 100%;
+    padding: 0 8px 0 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.branding-red{
+    display: inline-block;
+    font-size: 6vh;
+    font-style: italic;
+    font-weight: 700;
+    color: #D6000D;
+}
+.branding-black{
+    display: inline-block;
+    font-size: 6vh;
+    font-weight: 700;
+    color: black;
+}
+.navbar ul {
+    display: flex;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: block;
+    padding: 0 15px 0 15px;    
+}
+.navbar ul li a{
+    font-size: 3vh;
+   text-decoration: none;
+   color: black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.video-call{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-call img{
+    width: 60%;
+}
+.texto-principal{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto-principal div:nth-child(1){
+    font-size: 5vh;
+    color:black;
+    font-weight: 700;
+}
+.texto-principal div:nth-child(2){
+    font-size: 10vh;
+    font-weight: 700;
+    color: #D6000D;
+}
+.texto-principal button{
+    margin: 25px 0 10px 0;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-size: 4vh;
+    font-weight: 700;
+    background-color: #D6000D;
+    border: none;
+    border-radius: 15px;
+}
+.servicos, .codando, .deixe-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicos{
+    height: 60vh;
+    width: 50%;
+}
+.servicos ul{
+    list-style-image: url('./assets/check.png');
+}
+.servicos ul li{
+    margin: 8px 0 8px 0;
+    font-size: 4vh;
+}
+.codando{
+    height: 60vh;
+    width: 50%;
+}
+.codando img{
+    width: 60%;
+}
+.deixe-contato{
+    padding: 20px 0 0 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50vh;
+    width: 100%;
+}
+.deixe-contato form{
+    width: 100%;
+}
+.deixe-contato form input{
+    width: 30%;
+    margin-top: 15px;
+    padding: 15px 10px 15px 10px;
+    font-size: 3vh;
+    color: rgb(87, 87, 87);
+    background-color: rgb(187, 187, 187);
+    border: none;
+    border-radius: 15px;
+}
+.deixe-contato form button{
+    margin: 25px 0 10px 0;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    font-size: 3vh;
+    font-weight: 600;
+    background-color: #D6000D;
+    border: none;
+    border-radius: 15px;
+}
+.depoimentos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 15px;
+}
+.circle{
+    margin: 15px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #D6000D;
+}
+.text{
+    width: 60%;
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    padding-top: 35px;
+    background-color: black;
+    color: white;
+}
+footer h2{
+    font-size: 6vh;
+    margin-bottom: 15px;
+}
+.marca-footer{
+    width: 25%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.branding{
+    font-size: 8vh;
+    font-style: italic;
+    font-weight: 700;
+}
+.slogan{
+    margin-top: 15px;
+    font-size: 3vh;
+}
+.sobre{
+    width: 25%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+}
+.contato{
+    width: 25%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+}
+.contato p{
+    margin-bottom: 5px;
+}
+.contato a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.redes-sociais{
+    width: 25%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+}
+.redes-sociais div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.redes-sociais img{
+    width: 35%;
+}
